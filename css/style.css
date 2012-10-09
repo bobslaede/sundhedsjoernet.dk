@@ -85,15 +85,24 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
+html {
+  margin:0;
+  padding: 0;
+}
+
 body {
   font-family: 'Lora';
   font-weight:400;
   font-size:1.2em;
+  background:
+    url('../img/top-swirl.png') 0 0 no-repeat,
+    url('../img/top.png') 0 0 repeat-x;
+  margin: 0;
+  padding: 0;
 }
 
 #container {
   width: 90%;
-  max-width: 700px;
   margin: 20px auto;
 }
 
